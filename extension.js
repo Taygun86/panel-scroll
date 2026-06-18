@@ -30,7 +30,7 @@ export default class PanelScrollExtension {
         if (newIndex !== activeWorkspaceIndex) {
             const workspace = workspaceManager.get_workspace_by_index(newIndex);
             workspace.activate(global.get_current_time());
-            return Clutter.EVENT_STOP; // Olayı devraldık, başka bir öğeye gitmesine gerek kalmadı
+            return Clutter.EVENT_STOP;
         }
 
         return Clutter.EVENT_PROPAGATE;

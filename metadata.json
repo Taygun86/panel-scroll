@@ -1,0 +1,7 @@
+{
+  "name": "Panel Workspace Scroll",
+  "description": "Switch between workspaces by scrolling the mouse wheel on the top panel.",
+  "uuid": "panel-scroll@taygun86",
+  "shell-version": ["45", "46", "47", "48", "49", "50"],
+  "url": ""
+}
